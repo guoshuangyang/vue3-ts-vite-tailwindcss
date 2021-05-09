@@ -12,11 +12,8 @@
     </Card>
   </div>
   <div class="mx-auto w-full flex justify-between px-4 bg-white fixed bottom-0">
-    <p>Copyright (c) 2021 洋洋洋
-    </p>
-    <p>
-      {{version}}
-    </p>
+    <p>Copyright (c) 2021 <a href="https://github.com/guoshuangyang" class="text-black cursor-pointer">洋洋洋</a></p>
+    <p>{{version}}</p>
   </div>
 </template>
 
