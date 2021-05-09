@@ -5,7 +5,7 @@
  - time: 2021/5/9
 ============================= -->
 <template>
-  <div class="w-full bg-white shadow rounded hover:bg-purple-200">
+  <div class="w-full bg-white shadow rounded hover:text-white hover:bg-gray-700">
     <div class="border-b border-gray-300">
       <slot name="title"></slot>
     </div>

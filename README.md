@@ -9,6 +9,36 @@
 + 至于为打包后的文件提供传统浏览器兼容性支持，也就是不支持`<script type="module"></script>`我也会更新哒，目标创建一个基于vite 3 的 tailwindcss 以及 全家桶的最小项目单位，之后也会陆续更新组件库，完善成最基本的vue3项目模板，skr！
 + 至于开发的配置以及打包配置都会陆续更新！！！
 
+## Project setup
+
+```sh
+npm install
+# or yarn
+yarn
+```
+
+### Compiles and hot-reloads for development
+```shell
+npm run dev
+```
+
+### Compiles and minifies for production
+```sh
+npm run build
+# or yarn
+yarn build
+```
+
+### Run your preview 
+
+打包完的预览项目，直接启动一个服务托管dist目录的功能
+
+```shell
+npm run serve
+# or yarn
+yarn serve
+```
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
