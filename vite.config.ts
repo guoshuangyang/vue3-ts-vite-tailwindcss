@@ -31,7 +31,7 @@ export default defineConfig({
         drop_console: true,
         drop_debugger: true,
         toplevel: true,       // 删除无法引用的变量、函数
-        typeofs: true,        // 使用IE 10 以前的请配置false，咦 ，你们看我IE干啥
+        typeofs: true,        // 使用IE 10 以前的请配置false，咦 ，你们看我IE干啥 -- 不主张使用IE，vue3本身就没想做IE11及以下的适配
       }
     },
     // rollup 相关配置
@@ -56,7 +56,8 @@ export default defineConfig({
 
   },
   server: {
-    open: true,                // 默认的开发调式打开浏览器，为对象时候可以模拟实际服务器的开发地址
+    open: true,                // 默认的开发调式打开浏览器，为对象的时候可以模拟实际服务器的开发地址后缀
+    // 代理的配置
     proxy: {},
   }
 })
