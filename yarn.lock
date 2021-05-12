@@ -48,6 +48,11 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@types/node@^15.0.2":
+  version "15.0.2"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-15.0.2.tgz#51e9c0920d1b45936ea04341aa3e2e58d339fb67"
+  integrity sha1-UenAkg0bRZNuoENBqj4uWNM5+2c=
+
 "@vitejs/plugin-vue@^1.2.2":
   version "1.2.2"
   resolved "https://registry.nlark.com/@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.2.2.tgz#b0038fc11b9099f4cd01fcbf0ee419adda417b52"
@@ -459,6 +464,11 @@ emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/emojis-list/download/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha1-VXBmIEatKeLpFucariYKvf9Pang=
+
+es6-promise@^4.2.8:
+  version "4.2.8"
+  resolved "https://registry.npm.taobao.org/es6-promise/download/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha1-TrIVlMlyvEBVPSduUQU5FD21Pgo=
 
 esbuild@^0.9.3:
   version "0.9.7"
@@ -1272,6 +1282,11 @@ vite@^2.2.3:
   optionalDependencies:
     fsevents "~2.3.1"
 
+vue-router@4:
+  version "4.0.6"
+  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-4.0.6.tgz?cache=0&sync_timestamp=1617697843139&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-4.0.6.tgz#91750db507d26642f225b0ec6064568e5fe448d6"
+  integrity sha1-kXUNtQfSZkLyJbDsYGRWjl/kSNY=
+
 vue-tsc@^0.0.24:
   version "0.0.24"
   resolved "https://registry.nlark.com/vue-tsc/download/vue-tsc-0.0.24.tgz?cache=0&sync_timestamp=1620369540054&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-tsc%2Fdownload%2Fvue-tsc-0.0.24.tgz#0cd90db679f53ea1694254b8663fdb3d624a0872"
@@ -1287,6 +1302,11 @@ vue@^3.0.5:
     "@vue/compiler-dom" "3.0.11"
     "@vue/runtime-dom" "3.0.11"
     "@vue/shared" "3.0.11"
+
+vuex@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/vuex/download/vuex-4.0.0.tgz?cache=0&sync_timestamp=1612277442796&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvuex%2Fdownload%2Fvuex-4.0.0.tgz#ac877aa76a9c45368c979471e461b520d38e6cf5"
+  integrity sha1-rId6p2qcRTaMl5Rx5GG1INOObPU=
 
 wrappy@1:
   version "1.0.2"
