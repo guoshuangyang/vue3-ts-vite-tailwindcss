@@ -11,11 +11,13 @@ import './assets/index.css'
 // 响应式插件
 import 'amfe-flexible/index.js'
 
-import NutUI, {Toast} from "@nutui/nutui";
+import {Toast} from "@nutui/nutui";
+import NutUI from "@nutui/nutui";
 import "@nutui/nutui/dist/style.css";
 
 const app = createApp(App);
+app.use(NutUI)
     app.config.globalProperties.Toast = Toast;
     app.use(router)
-    .use(store).use(NutUI).mount('#app')
+    .use(store).mount('#app')
 

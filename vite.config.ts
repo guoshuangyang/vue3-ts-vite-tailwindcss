@@ -4,7 +4,6 @@
  */
 import {defineConfig} from 'vite'
 import vue from '@vitejs/plugin-vue'
-import legacy from '@vitejs/plugin-legacy'
 
 const {resolve} = require('path')
 
@@ -12,8 +11,6 @@ const {resolve} = require('path')
 export default defineConfig({
     plugins: [
         vue(),
-        // legacy插件配置自行查阅 https://www.npmjs.com/package/@vitejs/plugin-legacy
-        legacy()
     ],
     resolve: {
         alias: [{
