@@ -6,10 +6,10 @@
 ============================= -->
 <template>
   <div class="w-full bg-white shadow rounded hover:text-white hover:bg-gray-700">
-    <div class="border-b border-gray-300">
+    <div class="border-b border-gray-300 text-sm">
       <slot name="title"></slot>
     </div>
-    <div class="p-2">
+    <div class="p-2 text-sm">
       <slot></slot>
     </div>
   </div>
