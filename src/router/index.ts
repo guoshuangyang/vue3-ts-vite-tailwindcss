@@ -1,39 +1,22 @@
-/** ============================================
- * 路由文件
- ============================================*/
-// 引入vue-router对象 注意目前vite所有的单页面组件必须加.vue
-// index.ts
-import {createRouter, createWebHistory, RouteRecordRaw} from "vue-router";
-import Main from "@/layout/main/index.vue";
-import Mine from "@/pages/mine/index.vue"
-const routes: Array<RouteRecordRaw> = [
+import { createRouter, createWebHashHistory, RouteRecordRaw} from 'vue-router'
+
+const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        name: 'home',
-        redirect: '/main',
+        name: 'index',
+        component: import("../pages/index")
     },
     {
-        path: '/main',
-        name: 'main',
-        component: Main,
-        children: [
-            {
-                path: '/mine',
-                name: 'mine',
-                component: Mine
-            }
-        ]
-    },
-    {
-        path: '/chartCard',
-        name: 'chartCard',
-        component: () => import('@/pages/chartCard/index.vue'),
-    },
-];
+        path: '/page2',
+        name: 'page2',
+        component: import("../pages/page2")
+    }
+]
 
-const router = createRouter({
-    history: createWebHistory(),
-    routes,
-});
+const router  = createRouter({
+  history: createWebHashHistory(),
+  routes
+})
 
-export default router;
+export default router
+

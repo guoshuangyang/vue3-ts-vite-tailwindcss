@@ -1,10 +1,8 @@
 import { createStore } from 'vuex'
 
-export interface State {
-    count: number
-}
+
 // Create a new store instance.
-const store = createStore<State>({
+const store = createStore({
     state: {
         count: 0
     }
