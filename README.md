@@ -1,9 +1,9 @@
 ## Read me
 
 #### 前言
-+ 至于为打包后的文件提供传统浏览器兼容性支持，也就是不支持`<script type="module"></script>`我也会更新哒，目标创建一个基于vite 3 的 tailwindcss 以及 全家桶的最小项目单位，之后也会陆续更新组件库，完善成最基本的vue3项目模板，skr！
++ [x] 至于为打包后的文件提供传统浏览器兼容性支持，也就是不支持`<script type="module"></script>`我也会更新哒，目标创建一个基于vite 3 的 tailwindcss 以及 全家桶的最小项目单位，之后也会陆续更新组件库，完善成最基本的vue3项目模板，skr！
 
-+ 至于开发的配置以及打包配置都会陆续更新！！！
++ [x] 至于开发的配置以及打包配置都会陆续更新！！！
 
 + [x] 后续可以把vuex以及vue-router导入给大家展示，由于vite2解耦了vue的相关，vuex以及vue-router需自行导入，当然也是有部分坑的，不过做的相当好，打包大小以及基于 [esbuild](https://esbuild.github.io/) [预构建依赖](https://cn.vitejs.dev/guide/dep-pre-bundling.html)的编译真的特别快！！！！，当然配置大同小异，你写js也基本是这样的,目前生产的话还是webpack好用，不建议vite2直接上生产，一两个页面的项目还是可以用的额，大型项目还是再等等！！！(已做)
 
