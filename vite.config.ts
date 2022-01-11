@@ -7,7 +7,7 @@ import Icons from 'unplugin-icons/vite';
 import Components from 'unplugin-vue-components/vite';
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 // 在jsx中不不能识别出组件，所以需要按需导入
-import ElementPlus from 'unplugin-element-plus/vite'
+// import ElementPlus from 'unplugin-element-plus/vite'
 import { resolve } from 'path'
 
 
