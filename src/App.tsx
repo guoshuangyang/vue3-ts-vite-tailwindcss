@@ -1,12 +1,9 @@
 import test from './components/a';
-import { ElDatePicker,ElButton } from 'element-plus'
 import { useRouter } from 'vue-router';
 
 export default {
   components: {
-    test,
-    ElButton,
-    ElDatePicker
+    test
   },
   setup() {
     const router = useRouter()

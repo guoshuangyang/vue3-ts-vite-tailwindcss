@@ -33,16 +33,18 @@ export default defineConfig({
       // options are passed on to @vue/babel-plugin-jsx
     }),
     vue(),
-    ElementPlus({
+    // ElementPlus({
       // 在tsx（jsx）使用主题
-      useSource: true,
-    }),
+      // useSource: true,
+    // }),
     AutoImport({
       imports: ['vue', 'vue-router', 'vuex'],
       resolvers: [ElementPlusResolver()],
     }),
     Components({
       dirs: ['src/components'],
+      dts: true,
+      include: [/\.vue$/, /\.vue\?vue/, /\.tsx$/],
       resolvers: [
         // 在setup中使用样式（非jsx）
         ElementPlusResolver({ importStyle: 'sass' }),
